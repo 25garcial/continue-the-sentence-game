@@ -6,12 +6,13 @@ document.querySelector("input").value=""
   fresh = " " +fresh.slice(0, fresh.length)
   }
 	
-  document.querySelector("lable").innerHTML=o
+  
   let separated=fresh.split(" ")
   for (var i=0; i<separated.length; i++){
   if (separated[i]=="but") {separated[i]=",but"}}
   fresh=separated.join("")
   o+=fresh
+ document.querySelector("lable").innerHTML=o
   }
   
 for (var o="once upon a time,";o.length<80;){
