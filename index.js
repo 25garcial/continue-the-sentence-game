@@ -9,8 +9,8 @@ document.querySelector("input").value=""
   }
   let separated=fresh.split(" ")
   for (var i=0; i<separated.length; i++){
-  if (separated[i]=="but") {separated[i-1]+=","}}
-  if (separated[i]=="and") {separated[i-1]+=","}
+  if (separated[i]=="but") {if (separated[i-1].split("").slice(separated[i-1].split("").length)=",") separated[i-1]+=","}
+  if (separated[i]=="and") {separated[i-1]+=","}}
 
   fresh=separated.join(" ")
   o+=fresh
